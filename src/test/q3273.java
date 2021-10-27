@@ -22,7 +22,7 @@ public class q3273 {
 
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr.length; j++) {
-				while (arr[i] + arr[j] == sum) {
+				if (arr[i] + arr[j] == sum) {
 					cnt++;
 				}
 			}
