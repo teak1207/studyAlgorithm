@@ -25,5 +25,6 @@ public class codeup1261 {
 		if (n == 0) {
 			System.out.println("0");
 		}
+		sc.close();
 	}
 }

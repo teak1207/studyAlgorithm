@@ -50,7 +50,7 @@ public class q2531 {
 			if (maxLen <= count) {
 				if (eat[c] == 0) { // ¾ÆÁ÷ ÄíÆùÃÊ¹äÀ» ¾È¸ÔÀº »óÅÂ
 					maxLen = count + 1;
-				} else { // ¾ÆÁ÷ ÄíÆùÃÊ¹äÀ» ¸ÔÀº »óÅÂ
+				} else { //  ÄíÆùÃÊ¹äÀ» ¸ÔÀº »óÅÂ
 					maxLen = count;
 				}
 			}

@@ -26,7 +26,7 @@ public class q3273_1 {
 		// 원하는 sum 값
 		int x = Integer.parseInt(br.readLine());
 		//
-		Arrays.sort(arr);
+		Arrays.sort(arr);  // 배열 정렬 해줌
 
 		int start = 0;
 		int end = n - 1;
