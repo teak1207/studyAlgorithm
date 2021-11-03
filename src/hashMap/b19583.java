@@ -39,6 +39,15 @@ public class b19583 {
 		 * @Override public int compare(Entry<Integer, String> o1, Entry<Integer,
 		 * String> o2) { // TODO Auto-generated method stub return 0; } });
 		 */
+		
+		/*
+		 * 음.... 일단 문제를 이렇게 파악함 위에 예제를 보면 23시 이전에 입실한 애들은 일단 입실 그리고 2300 ~2330 에 같은 value가 찍혀야 출석이 확인됨
+		 * 그래서 나는 0 <= x <=2300 범위의 값들을 해시맵에 넣고
+		 * 2301 <= x <=2329 까지에 value 가 같으면 카운트 한다.
+		 */
+		
+		
+		
 		String tempkey = br.readLine();
 		String value = br.readLine();
 
