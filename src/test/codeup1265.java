@@ -16,5 +16,7 @@ public class codeup1265 {
 
 			System.out.println(n + " * " + i + "=" + n * i);
 		}
+
+		sc.close();
 	}
 }

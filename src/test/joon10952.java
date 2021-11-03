@@ -20,5 +20,6 @@ public class joon10952 {
 			}
 			System.out.println(A + B);
 		}
+		sc.close();
 	}
 }

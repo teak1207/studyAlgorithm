@@ -23,7 +23,6 @@ public class test {
 		char temp1 = 0;
 		char temp2 = 0;
 
-		
 		for (int i = 0; i < N; i++) {
 
 			arr2[i] = sc.next(); /* 문자열 입력받음 */
@@ -36,5 +35,6 @@ public class test {
 				System.out.println("NE");
 			}
 		}
+		sc.close();
 	}
 }

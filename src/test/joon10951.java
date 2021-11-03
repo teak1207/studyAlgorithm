@@ -21,6 +21,7 @@ public class joon10951 {
 			}
 			System.out.println(x + y);
 		}
+	sc.close();
 	}
 
 }
