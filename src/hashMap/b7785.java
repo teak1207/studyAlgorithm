@@ -23,8 +23,8 @@ public class b7785 {
 			String[] result = temp.split(" ", 2);
 			map.put(result[0], result[1]);
 		}
-		Object[] mapkey = map.keySet().toArray();
-		Arrays.sort(mapkey);
+//		Object[] mapkey = map.keySet().toArray();
+//		Arrays.sort(mapkey);
 
 		System.out.println(map);
 
